@@ -50,6 +50,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/proxyproto"
 	_ "github.com/coredns/coredns/plugin/quic"
 	_ "github.com/coredns/coredns/plugin/ready"
+	_ "github.com/coredns/coredns/plugin/recursive"
 	_ "github.com/coredns/coredns/plugin/reload"
 	_ "github.com/coredns/coredns/plugin/rewrite"
 	_ "github.com/coredns/coredns/plugin/root"
