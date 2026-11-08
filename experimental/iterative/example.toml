@@ -1,0 +1,6 @@
+# Lab example; key 38696 from IANA root-anchors.xml, retrieved 2026-11-08.
+# HTTPS retrieval; S/MIME signature not independently verified in this experiment.
+# Operator must establish trust in the seed through their approved process.
+directory = "/tmp/coredns-iterative-state"
+roots = ["198.41.0.4:53", "199.9.14.201:53", "192.33.4.12:53"]
+anchors = [". 172800 IN DNSKEY 257 3 8 AwEAAa96jeuknZlaeSrvyAJj6ZHv28hhOKkx3rLGXVaC6rXTsDc449/cidltpkyGwCJNnOAlFNKF2jBosZBU5eeHspaQWOmOElZsjICMQMC3aeHbGiShvZsx4wMYSjH8e7Vrhbu6irwCzVBApESjbUdpWWmEnhathWu1jo+siFUiRAAxm9qyJNg/wOZqqzL/dL/q8PkcRU5oUKEpUge71M3ej2/7CPqpdVwuMoTvoB+ZOT4YeGyxMvHmbrxlFzGOHOijtzN+u1TQNatX2XBuzZNQ1K+s2CXkPIZo7s6JgZyvaBevYtxPvYLw4z9mR7K2vaF18UYH9Z9GNUUeayffKC73PYc="]
